@@ -75,6 +75,8 @@ Creare un file CSV chiamato `utenti.csv` con il seguente contenuto:
 Sintassi base per caricare i dati:
 
 ```sql
+
+
 LOAD DATA INFILE '/percorso/del/file/utenti.csv'
 INTO TABLE utenti
 FIELDS TERMINATED BY ',' 
