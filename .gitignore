@@ -1,1 +1,3 @@
 .idea
+vendor
+/php/PHP_COMPOSER_DEMO/vendor/
