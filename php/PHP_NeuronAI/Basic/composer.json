@@ -1,0 +1,13 @@
+{
+    "name": "musa/aidemo",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Antonio Bruno",
+            "email": "abruno@artiso.com"
+        }
+    ],
+    "require": {
+        "neuron-core/neuron-ai": "^3.4"
+    }
+}
