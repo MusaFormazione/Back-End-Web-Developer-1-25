@@ -1,0 +1,7 @@
+{
+    "name": "musa/aidemo",
+    "type": "project",
+    "require": {
+        "neuron-core/neuron-ai": "^3.4"
+    }
+}
