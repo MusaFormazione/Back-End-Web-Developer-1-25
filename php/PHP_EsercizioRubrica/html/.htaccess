@@ -1,0 +1,13 @@
+# Abilita il motore di rewrite di Apache (mod_rewrite deve essere attivo)
+RewriteEngine On
+
+# Se la risorsa richiesta è un file reale, NON applicare il rewrite
+RewriteCond %{REQUEST_FILENAME} !-f
+# Se la risorsa richiesta è una directory reale, NON applicare il rewrite
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Per tutte le altre richieste, riscrivi internamente verso index.php
+# ^(.*)$ cattura qualsiasi percorso richiesto
+# QSA (Query String Append): mantiene/aggiunge la query string originale
+# L (Last): ferma l’elaborazione di ulteriori regole dopo questa
+RewriteRule ^(.*)$ index.php [QSA,L]

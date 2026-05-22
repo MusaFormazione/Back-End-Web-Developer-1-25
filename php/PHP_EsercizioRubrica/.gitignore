@@ -1,0 +1,4 @@
+.idea
+/vendor/
+/src/repository/json/data
+/html/images
